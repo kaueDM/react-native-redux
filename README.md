@@ -30,3 +30,24 @@ Android
 ```
 react-native run-android
 ```
+
+###React vs React Native
+**React**
+* Sabe como um componente deve se comportar
+* Sabe como fazer diversos componentes trabalharem em conjunto
+
+**React Native** 
+* Sabe como obter o output de um componente e renderizar na tela
+* Provê os componentes básicos, como imagens, textos, etc
+
+###Componente Funcional vs Componente de Classe
+**Componente Funcional**
+* Usado para dados estáticos
+* Não possuem capacidade para manipular dados dinâmicos
+* Fácil de escrever
+
+**Componente de Classe**
+* Usado para dados dinâmicos
+* Manipulam qualquer tipo de data dinâmica, como resultados de requests a APIs, eventos do usuário, etc
+* Sabem quando vão renderizados
+* Maior volume de código
