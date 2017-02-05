@@ -5,10 +5,17 @@ import Header from './src/components/Header';
 import AlbumList from './src/components/AlbumList';
 
 const App = () => (
-  <View style={{ flex: 1 }}>
+  <View style={styles.appStyle}>
     <Header headerText={'Álbuns'} />
     <AlbumList />
-</View>
-  );
+  </View>
+);
+
+const styles = {
+  appStyle: {
+    flex: 1,
+    backgroundColor: '#2b2b2b'
+  }
+};
 
 AppRegistry.registerComponent('albums', () => App);
