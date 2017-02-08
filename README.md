@@ -51,3 +51,10 @@ react-native run-android
 * Manipulam qualquer tipo de data dinâmica, como resultados de requests a APIs, eventos do usuário, etc
 * Sabem quando vão renderizados
 * Maior volume de código
+
+###Redux
+
+**Reducer:** Uma função que retorna algum tipo de dados
+**Action:** Objeto Javascript que informa ao reducer como alterar os dados
+**State:** Dados da aplicação (inputs, etc)
+**Store:** Objeto composto pelo *Reducer* e pelo *State*, responsável por armazenar os dados
